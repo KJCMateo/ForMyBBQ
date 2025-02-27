@@ -1,0 +1,133 @@
+body {
+    font-family: 'Lacquer', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/premium-photo/abstract-horizontal-background-with-bright-purple-tropical-butterflies-watercolor-imitation_364586-4262.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.header-container {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.header-text {
+    color: white;
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 54px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px #800080, 0 0 20px #800080, 0 0 30px #800080; /* Glowing purple text */
+}
+
+.header-text p {
+    font-size: 20px;
+}
+
+nav {
+    background-color: #555;
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 0.5em;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    border-radius: 15px;
+    width: 370px;
+    color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 50px auto;
+}
+
+.login-container h2 {
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #800080; /* Purple color */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.input-field {
+    width: 340px;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.input-field:focus {
+    outline: none;
+    border: 2px solid #800080; /* Purple border */
+    box-shadow: 0 0 5px #800080;
+}
+
+button {
+    width: 360px;
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #800080; /* Purple background */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #660066; /* Darker purple */
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+    display: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: #800080;
+    text-decoration: none;
+}
