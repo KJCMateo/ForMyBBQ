@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function login() {
-    const validUsername = "Jade Rivero"; // Set the required email
-    const validPassword = "02/28/2001"; // Set the required password
+    const validUsername = "Jade Rivero";
+    const validPassword = "02/28/2001"; 
 
     let username = document.getElementById("username").value.trim();
     let password = document.getElementById("password").value.trim();
