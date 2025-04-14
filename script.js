@@ -33,7 +33,6 @@ var init = function () {
     ctx.fillRect(0, 0, width, height);
 
     var heartPosition = function (rad) {
-        //return [Math.sin(rad), Math.cos(rad)];
         return [Math.pow(Math.sin(rad), 3), -(15 * Math.cos(rad) - 5 * Math.cos(2 * rad) - 2 * Math.cos(3 * rad) - Math.cos(4 * rad))];
     };
     var scaleAndTranslate = function (pos, sx, sy, dx, dy) {
@@ -97,14 +96,12 @@ var init = function () {
         ctx.fillStyle = "rgba(0,0,0,.1)";
         ctx.fillRect(0, 0, width, height);
     
-        // Add the text "For My Sandee Cesa"
-        ctx.font = "40px 'Lacquer', sans-serif"; // Use Lacquer font
-        ctx.fillStyle = "hsla(340, 100%, 60%, 1)"; // Pink color for the text
-        ctx.textAlign = "center"; // Center align the text
-        ctx.textBaseline = "middle"; // Vertically center the text
-        ctx.fillText("For My Sandee Cesa", width / 2, height / 4); // Position the text
+        ctx.font = "40px 'Lacquer', sans-serif"; 
+        ctx.fillStyle = "hsla(340, 100%, 60%, 1)"; 
+        ctx.textAlign = "center"; 
+        ctx.textBaseline = "middle"; 
+        ctx.fillText("For My Sandee Cesa", width / 2, height / 4); 
     
-        // Continue drawing the heart particles
         for (i = e.length; i--;) {
             var u = e[i];
             var q = targetPoints[u.q];
