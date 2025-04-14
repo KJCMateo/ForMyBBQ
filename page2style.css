@@ -2,7 +2,7 @@ body {
     font-family: 'Lacquer', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://img.freepik.com/premium-photo/abstract-horizontal-background-with-bright-purple-tropical-butterflies-watercolor-imitation_364586-4262.jpg'); /* Replace with your background image */
+    background-image: url('https://img.freepik.com/premium-photo/abstract-horizontal-background-with-bright-purple-tropical-butterflies-watercolor-imitation_364586-4262.jpg'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -31,7 +31,7 @@ header {
 .header-text h1 {
     font-size: 54px;
     margin-bottom: 10px;
-    text-shadow: 0 0 10px #800080, 0 0 20px #800080, 0 0 30px #800080; /* Glowing purple text */
+    text-shadow: 0 0 10px #800080, 0 0 20px #800080, 0 0 30px #800080; 
 }
 
 .header-text p {
@@ -65,7 +65,7 @@ nav a {
 .login-container h2 {
     margin-bottom: 25px;
     font-size: 28px;
-    color: #800080; /* Purple color */
+    color: #800080; 
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -84,7 +84,7 @@ nav a {
 
 .input-field:focus {
     outline: none;
-    border: 2px solid #800080; /* Purple border */
+    border: 2px solid #800080; 
     box-shadow: 0 0 5px #800080;
 }
 
@@ -92,7 +92,7 @@ button {
     width: 360px;
     margin-top: 10px;
     padding: 12px;
-    background-color: #800080; /* Purple background */
+    background-color: #800080; 
     color: white;
     border: none;
     border-radius: 8px;
@@ -102,7 +102,7 @@ button {
 }
 
 button:hover {
-    background-color: #660066; /* Darker purple */
+    background-color: #660066; 
     transform: scale(1.05);
 }
 
